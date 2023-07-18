@@ -10,9 +10,7 @@ import org.openqa.selenium.WebDriver;
 
 public class WIndowHandle {
 
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "/Users/User/Desktop/rogi/webDriver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
